@@ -1,0 +1,10 @@
+apply from: "$rootDir/gradle/langserverExtProject.gradle"
+
+description = 'LangServer - Command Executor - SPI Example'
+
+dependencies {
+    compile 'org.ballerinalang:language-server-commons'
+    compile 'org.ballerinalang:ballerina-lang'
+    compile 'org.eclipse.lsp4j:org.eclipse.lsp4j'
+    annotationProcessor("org.ballerinalang:ballerina-lang:1.2.0")
+}

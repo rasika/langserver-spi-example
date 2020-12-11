@@ -1,0 +1,3 @@
+rootProject.name = 'spi-example-parent'
+include(':codeaction')
+include(':command')
